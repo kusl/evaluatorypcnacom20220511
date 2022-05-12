@@ -1,10 +1,7 @@
 {
     output: "evaluatory-results",
-
-    maxConnections: 5,
-
-    openResults: true,
-  
+    maxConnections: 8,
+    openResults: false,
     urls: [
       "https://www.pcna.com/en-us/",
       "https://www.pcna.com/en-ca/",
@@ -20,8 +17,8 @@
       "https://www.pcna.com/tools-services/sureship",
       "https://www.pcna.com/tools-services/electronic-integration",
       "https://www.pcna.com/tools-services/electronic-integration",
-      "https://www.pcna.com/en-us/Search?filter-by-qty=1&sort=3"
+      "https://www.pcna.com/en-us/Search?filter-by-qty=1&sort=3",
+      "https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10"
     ],
-  
     modules: ["base", "axe-core", "html-validate", "screenshot"]
   }
