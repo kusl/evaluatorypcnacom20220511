@@ -16,7 +16,7 @@ jobs:
     - name: Install Playwright
       run: npx playwright install --with-deps
     - name: Run Evaluatory
-      run: npx playwright test
+      run: time yarn run evaluatory --config pcnacom.config.json
     - uses: actions/upload-artifact@v2
       if: always()
       with:
