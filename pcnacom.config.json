@@ -1,0 +1,27 @@
+{
+    output: "evaluatory-results",
+
+    maxConnections: 5,
+
+    openResults: true,
+  
+    urls: [
+      "https://www.pcna.com/en-us/",
+      "https://www.pcna.com/en-ca/",
+      "https://www.pcna.com/en-us/tools-services/customizable-ecatalogs",
+      "https://www.pcna.com/tools-services/build-your-own-flyers",
+      "https://www.pcna.com/tools-services/custom-websites",
+      "https://www.pcna.com/eco",
+      "https://www.pcna.com/tools-services/decoration-methods-pricing",
+      "https://www.pcna.com/how-to-order/leeds",
+      "https://www.pcna.com/blog",
+      "https://www.pcna.com/tools-services/why-pcna",
+      "https://www.pcna.com/tools-services/perfectly-packaged",
+      "https://www.pcna.com/tools-services/sureship",
+      "https://www.pcna.com/tools-services/electronic-integration",
+      "https://www.pcna.com/tools-services/electronic-integration",
+      "https://www.pcna.com/en-us/Search?filter-by-qty=1&sort=3"
+    ],
+  
+    modules: ["base", "axe-core", "html-validate", "screenshot"]
+  }
