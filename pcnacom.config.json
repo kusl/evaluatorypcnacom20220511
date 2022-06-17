@@ -1,6 +1,6 @@
 {
     output: "evaluatory-results",
-    maxConnections: 8,
+    maxConnections: 1,
     openResults: false,
     urls: [
       "https://www.pcna.com/en-us/",
