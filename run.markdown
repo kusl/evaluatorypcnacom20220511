@@ -2,6 +2,10 @@ yarn run v1.22.19
 $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluatory --config pcnacom.config.json
 ℹ Evaluating 16 URLs
 ℹ Clearing output folder: /home/kushal/src/html/evaluatory/pcnacomevaluatory/evaluatory-results
+ℹ Running [base] for https://www.pcna.com/en-us/
+ℹ Running [axe-core] for https://www.pcna.com/en-us/
+ℹ Running [html-validate] for https://www.pcna.com/en-us/
+ℹ Running [screenshot] for https://www.pcna.com/en-us/
 ℹ Running [base] for https://www.pcna.com/en-ca/
 ℹ Running [axe-core] for https://www.pcna.com/en-ca/
 ℹ Running [html-validate] for https://www.pcna.com/en-ca/
@@ -10,6 +14,10 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [axe-core] for https://www.pcna.com/en-us/tools-services/customizable-ecatalogs
 ℹ Running [html-validate] for https://www.pcna.com/en-us/tools-services/customizable-ecatalogs
 ℹ Running [screenshot] for https://www.pcna.com/en-us/tools-services/customizable-ecatalogs
+ℹ Running [base] for https://www.pcna.com/tools-services/build-your-own-flyers
+ℹ Running [axe-core] for https://www.pcna.com/tools-services/build-your-own-flyers
+ℹ Running [html-validate] for https://www.pcna.com/tools-services/build-your-own-flyers
+ℹ Running [screenshot] for https://www.pcna.com/tools-services/build-your-own-flyers
 ℹ Running [base] for https://www.pcna.com/tools-services/custom-websites
 ℹ Running [axe-core] for https://www.pcna.com/tools-services/custom-websites
 ℹ Running [html-validate] for https://www.pcna.com/tools-services/custom-websites
@@ -59,4 +67,4 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [html-validate] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
 ℹ Running [screenshot] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
 ℹ Saved results to: /home/kushal/src/html/evaluatory/pcnacomevaluatory/evaluatory-results
-Done in 418.22s.
+Done in 332.33s.
