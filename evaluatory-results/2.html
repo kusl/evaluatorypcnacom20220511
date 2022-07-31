@@ -60,7 +60,7 @@
 
 <ul>
   <li>
-    <strong class="text-danger">33 violation(s)</strong>
+    <strong class="text-danger">35 violation(s)</strong>
   </li>
   <li>View <a href="2-axe-core.json">JSON results</a></li>
 </ul>
@@ -73,7 +73,7 @@
       <em>phone, tablet, desktop</em></p>
 
     
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;country-flag nav-link px-0&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;country-flag-header&quot;</span> <span class="hljs-attr">data-country</span>=<span class="hljs-string">&quot;canada&quot;</span> <span class="hljs-attr">data-toggle</span>=<span class="hljs-string">&quot;dropdown&quot;</span> <span class="hljs-attr">aria-haspopup</span>=<span class="hljs-string">&quot;true&quot;</span> <span class="hljs-attr">aria-expanded</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span></code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;country-flag nav-link px-0 clickable&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;country-flag-header&quot;</span> <span class="hljs-attr">data-country</span>=<span class="hljs-string">&quot;usa&quot;</span> <span class="hljs-attr">data-toggle</span>=<span class="hljs-string">&quot;dropdown&quot;</span> <span class="hljs-attr">aria-haspopup</span>=<span class="hljs-string">&quot;true&quot;</span> <span class="hljs-attr">aria-expanded</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span></code></pre>
     
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;country-flag nav-link px-0&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;country-flag-header&quot;</span> <span class="hljs-attr">data-country</span>=<span class="hljs-string">&quot;canada&quot;</span> <span class="hljs-attr">data-toggle</span>=<span class="hljs-string">&quot;dropdown&quot;</span> <span class="hljs-attr">aria-haspopup</span>=<span class="hljs-string">&quot;true&quot;</span> <span class="hljs-attr">aria-expanded</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span></code></pre>
     
@@ -145,23 +145,27 @@
   </section>
 
   <section>
+    <h3><svg class="icon icon-severity icon-severity-minor" role="img" aria-hidden="true"><use xlink:href="#icon-severity-minor"></use></svg> Ensures headings have discernible text</h3>
+    <p>Violated
+      <a href="https://dequeuniversity.com/rules/axe/4.4/empty-heading?application=axeAPI" target="_blank" rel="noopener">empty-heading</a> on:
+      <em>phone, tablet, desktop</em></p>
+
+    
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;product-list-title&quot;</span> <span class="hljs-attr">data-test-selector</span>=<span class="hljs-string">&quot;hdgTrendingTitle&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span></code></pre>
+    
+
+  </section>
+
+  <section>
     <h3><svg class="icon icon-severity icon-severity-critical" role="img" aria-hidden="true"><use xlink:href="#icon-severity-critical"></use></svg> Ensures &lt;img&gt; elements have alternate text or a role of none or presentation</h3>
     <p>Violated
       <a href="https://dequeuniversity.com/rules/axe/4.4/image-alt?application=axeAPI" target="_blank" rel="noopener">image-alt</a> on:
       <em>phone, tablet, desktop</em></p>
 
     
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/Mkt_Dept/Jobs/2022-6296_7-25_Web_Msg/6296_0725_HERO_PCNA.jpg&quot;</span>&gt;</span></code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/Mkt_Dept/Jobs/2022-8227%20Hydro%20Flask%20Launch%20-%20Web%20Messaging/8227_PCNA_Hero_HydroFlask_v3.jpg&quot;</span>&gt;</span></code></pre>
     
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">data-test-selector</span>=<span class="hljs-string">&quot;imgTrendImage&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;881&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/t_category,f_auto,q_auto/Mkt_Dept/Jobs/2022-6116_6-27_Web_Msg/6116_0627_CAT_MetalMugs&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">data-src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/t_category,f_auto,q_auto/Mkt_Dept/Jobs/2022-6116_6-27_Web_Msg/6116_0627_CAT_MetalMugs&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">data-test-selector</span>=<span class="hljs-string">&quot;imgTrendImage&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;348&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/t_category,f_auto,q_auto/Mkt_Dept/Jobs/2022-5801_5-9_Web_Msg/5801_0509_CAT_Drawstriings&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">data-src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/t_category,f_auto,q_auto/Mkt_Dept/Jobs/2022-5801_5-9_Web_Msg/5801_0509_CAT_Drawstriings&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">data-test-selector</span>=<span class="hljs-string">&quot;imgTrendImage&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;413&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/t_category,f_auto,q_auto/Mkt_Dept/Jobs/2022-6296_7-25_Web_Msg/6296_0725_CAT_Speaker&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">data-src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/t_category,f_auto,q_auto/Mkt_Dept/Jobs/2022-6296_7-25_Web_Msg/6296_0725_CAT_Speaker&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">data-test-selector</span>=<span class="hljs-string">&quot;imgTrendImage&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;347&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/t_category,f_auto,q_auto/Mkt_Dept/Jobs/2022-6026_6-13_Web_Msg/6026_0613_CAT_CoolerBags&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">data-src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/t_category,f_auto,q_auto/Mkt_Dept/Jobs/2022-6026_6-13_Web_Msg/6026_0613_CAT_CoolerBags&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">data-test-selector</span>=<span class="hljs-string">&quot;imgTrendImage&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;383&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/t_category,f_auto,q_auto/Mkt_Dept/Jobs/2022-5801_5-9_Web_Msg/5801_0509_CAT_Staionery&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">data-src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/t_category,f_auto,q_auto/Mkt_Dept/Jobs/2022-5801_5-9_Web_Msg/5801_0509_CAT_Staionery&quot;</span>&gt;</span></code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/Mkt_Dept/Jobs/2022-8227%20Hydro%20Flask%20Launch%20-%20Web%20Messaging/8227_HydroFlask_HERO_Banner_PCNA.jpg&quot;</span>&gt;</span></code></pre>
     
 
   </section>
@@ -189,7 +193,19 @@
     
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;javascript:void(0);&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;btn btn-secondary nav-link dropdown-toggle&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;dropdown-sign-in&quot;</span> <span class="hljs-attr">data-toggle</span>=<span class="hljs-string">&quot;dropdown&quot;</span> <span class="hljs-attr">data-ga-track</span>=<span class="hljs-string">&quot;account-nav-menu&quot;</span> <span class="hljs-attr">aria-haspopup</span>=<span class="hljs-string">&quot;true&quot;</span> <span class="hljs-attr">aria-expanded</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span></code></pre>
     
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://www.trimarksportswear.com/CATEGORY/Fleece--and-Knits?pageType=homepage_banner<span class="hljs-symbol">&amp;amp;</span>location=a_spot<span class="hljs-symbol">&amp;amp;</span>campaign=heroCDN-fleece<span class="hljs-symbol">&amp;amp;</span>type=new/launch<span class="hljs-symbol">&amp;amp;</span>business=pcna<span class="hljs-symbol">&amp;amp;</span>country=CDN<span class="hljs-symbol">&amp;amp;</span>segment=n/a&quot;</span> <span class="hljs-attr">data-item-id</span>=<span class="hljs-string">&quot;heroCDN-fleece&quot;</span> <span class="hljs-attr">data-item-type</span>=<span class="hljs-string">&quot;promotion&quot;</span> <span class="hljs-attr">data-ga-track</span>=<span class="hljs-string">&quot;banner-campaign-below-nav&quot;</span>&gt;</span></code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/brand/hydro-flask/shop-all?pageType=homepage_banner<span class="hljs-symbol">&amp;amp;</span>location=a_spot<span class="hljs-symbol">&amp;amp;</span>campaign=heroCDN-hydroflask_launch<span class="hljs-symbol">&amp;amp;</span>type=new/launch<span class="hljs-symbol">&amp;amp;</span>business=pcna<span class="hljs-symbol">&amp;amp;</span>country=CDN<span class="hljs-symbol">&amp;amp;</span>segment=n/a&quot;</span> <span class="hljs-attr">data-item-id</span>=<span class="hljs-string">&quot;heroCDN-hydroflask_launch&quot;</span> <span class="hljs-attr">data-item-type</span>=<span class="hljs-string">&quot;promotion&quot;</span> <span class="hljs-attr">data-ga-track</span>=<span class="hljs-string">&quot;banner-campaign-below-nav&quot;</span>&gt;</span></code></pre>
+    
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/hydro-flask-preorder&quot;</span>&gt;</span></code></pre>
+    
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/brand/herschel/shop-all&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/Mkt_Dept/Jobs/2022-6341_8-1_Web_Msg/6341_0801_CAT_BRAND_Herschel.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
+    
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/brand/mophie/shop-all&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/Mkt_Dept/Jobs/2022-6341_8-1_Web_Msg/6341_0801_CAT_BRAND_mophie.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
+    
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/brand/tentree/shop-all&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/Mkt_Dept/Jobs/2022-6341_8-1_Web_Msg/6341_0801_CAT_BRAND_tentree.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
+    
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/brand/skullcandy/shop-all&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/Mkt_Dept/Jobs/2022-6341_8-1_Web_Msg/6341_0801_CAT_BRAND_skullcandy.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
+    
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/brand/camelbak/shop-all&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/Mkt_Dept/Jobs/2022-6341_8-1_Web_Msg/6341_0801_CAT_BRAND_camelbak.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
     
 
   </section>
@@ -230,18 +246,6 @@
 
   </section>
 
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-minor" role="img" aria-hidden="true"><use xlink:href="#icon-severity-minor"></use></svg> Ensures headings have discernible text</h3>
-    <p>Violated
-      <a href="https://dequeuniversity.com/rules/axe/4.4/empty-heading?application=axeAPI" target="_blank" rel="noopener">empty-heading</a> on:
-      <em>tablet, desktop</em></p>
-
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;product-list-title key-FeaturedDepartmentTitle&quot;</span> <span class="hljs-attr">data-test-selector</span>=<span class="hljs-string">&quot;hdgDepartTitle&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span></code></pre>
-    
-
-  </section>
-
 
       <hr>
     
@@ -251,7 +255,7 @@
 
 <ul>
   <li>
-    <strong class="text-danger">44 violation(s)</strong>
+    <strong class="text-danger">52 violation(s)</strong>
   </li>
   <li>View <a href="2-html-validate.json">JSON results</a></li>
 </ul>
@@ -534,6 +538,86 @@
     </p>
     
       <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-contentpage</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; picture &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-home</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">5</span>) &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;img&gt; is missing required &quot;alt&quot; attribute</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-contentpage</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">5</span>) &gt; <span class="hljs-selector-tag">a</span> &gt; picture &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-home</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">9</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">5</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-home</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">9</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">5</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-home</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">9</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">5</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">3</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-home</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">9</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">5</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-home</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">9</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">5</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">5</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;h3&gt; cannot be empty, must have text content</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/empty-heading.html" target="_blank" rel="noopener">empty-heading</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-home</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">3</span>) &gt; <span class="hljs-selector-tag">h3</span> {}</code></pre>
     
   </section>
 
