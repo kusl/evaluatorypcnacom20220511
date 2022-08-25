@@ -62,9 +62,5 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [axe-core] for https://www.pcna.com/en-us/Search?filter-by-qty=1&sort=3
 ℹ Running [html-validate] for https://www.pcna.com/en-us/Search?filter-by-qty=1&sort=3
 ℹ Running [screenshot] for https://www.pcna.com/en-us/Search?filter-by-qty=1&sort=3
-ℹ Running [base] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
-ℹ Running [axe-core] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
-ℹ Running [html-validate] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
-ℹ Running [screenshot] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
 ℹ Saved results to: /home/kushal/src/html/evaluatory/pcnacomevaluatory/evaluatory-results
-Done in 286.57s.
+Done in 274.04s.
