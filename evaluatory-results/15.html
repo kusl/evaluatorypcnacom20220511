@@ -60,7 +60,7 @@
 
 <ul>
   <li>
-    <strong class="text-danger">82 violation(s)</strong>
+    <strong class="text-danger">80 violation(s)</strong>
   </li>
   <li>View <a href="15-axe-core.json">JSON results</a></li>
 </ul>
@@ -76,20 +76,6 @@
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;country-flag nav-link px-0 clickable&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;country-flag-header&quot;</span> <span class="hljs-attr">data-country</span>=<span class="hljs-string">&quot;usa&quot;</span> <span class="hljs-attr">data-toggle</span>=<span class="hljs-string">&quot;dropdown&quot;</span> <span class="hljs-attr">aria-haspopup</span>=<span class="hljs-string">&quot;true&quot;</span> <span class="hljs-attr">aria-expanded</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span></code></pre>
     
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;country-flag nav-link px-0&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;country-flag-header&quot;</span> <span class="hljs-attr">data-country</span>=<span class="hljs-string">&quot;usa&quot;</span> <span class="hljs-attr">data-toggle</span>=<span class="hljs-string">&quot;dropdown&quot;</span> <span class="hljs-attr">aria-haspopup</span>=<span class="hljs-string">&quot;true&quot;</span> <span class="hljs-attr">aria-expanded</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span></code></pre>
-    
-
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-critical" role="img" aria-hidden="true"><use xlink:href="#icon-severity-critical"></use></svg> Ensures every id attribute value used in ARIA and in labels is unique</h3>
-    <p>Violated
-      <a href="https://dequeuniversity.com/rules/axe/4.4/duplicate-id-aria?application=axeAPI" target="_blank" rel="noopener">duplicate-id-aria</a> on:
-      <em>phone, tablet, desktop</em></p>
-
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;custom-control-input FacetFilter-applycategory attr-HealthBeauty&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;Category~Health <span class="hljs-symbol">&amp;amp;</span> Beauty&quot;</span> <span class="hljs-attr">data-filter</span>=<span class="hljs-string">&quot;filterValue_applycategory&quot;</span> <span class="hljs-attr">data-refinedurl</span>=<span class="hljs-string">&quot;Search?FacetGroup=category<span class="hljs-symbol">&amp;amp;</span>FacetValue=Health+%26+Beauty<span class="hljs-symbol">&amp;amp;</span>SearchTerm=&quot;</span> <span class="hljs-attr">data-valueid</span>=<span class="hljs-string">&quot;6084&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;custom-control-input FacetFilter&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;m-Category~Health <span class="hljs-symbol">&amp;amp;</span> Beauty&quot;</span> <span class="hljs-attr">data-filter</span>=<span class="hljs-string">&quot;filterValue&quot;</span> <span class="hljs-attr">data-refinedurl</span>=<span class="hljs-string">&quot;Search?FacetGroup=category<span class="hljs-symbol">&amp;amp;</span>FacetValue=Health+%26+Beauty<span class="hljs-symbol">&amp;amp;</span>SearchTerm=&quot;</span> <span class="hljs-attr">onchange</span>=<span class="hljs-string">&quot;Search.prototype.PCNACustomGetFiltersResult(this)&quot;</span>&gt;</span></code></pre>
     
 
   </section>
@@ -373,7 +359,7 @@
 
 <ul>
   <li>
-    <strong class="text-danger">1021 violation(s)</strong>
+    <strong class="text-danger">1017 violation(s)</strong>
   </li>
   <li>View <a href="15-html-validate.json">JSON results</a></li>
 </ul>
@@ -595,27 +581,7 @@
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#sidebar_facet_1</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">11</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Category~Health &amp;amp; Beauty&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#sidebar_facet_1</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">12</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;Category~Health &amp;amp; Beauty&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#sidebar_facet_1</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">12</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css">#Category~Health\ &amp;amp;\ Beauty {}</code></pre>
     
   </section>
 
@@ -660,22 +626,22 @@
   </section>
 
   <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Retail Brand~Arctic Zone&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css">#Retail\ Brand~Arctic\ Zone {}</code></pre>
-    
-  </section>
-
-  <section>
     <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Retail Brand~CamelBak&quot;</h3>
     <p>Violated
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
     </p>
     
       <pre class="hljs" tabindex="0"><code class="language-css">#Retail\ Brand~CamelBak {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Retail Brand~Arctic Zone&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css">#Retail\ Brand~Arctic\ Zone {}</code></pre>
     
   </section>
 
@@ -810,12 +776,12 @@
   </section>
 
   <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Retail Brand~Elleven&quot;</h3>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Retail Brand~elleven&quot;</h3>
     <p>Violated
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css">#Retail\ Brand~Elleven {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css">#Retail\ Brand~elleven {}</code></pre>
     
   </section>
 
@@ -1336,6 +1302,16 @@
     </p>
     
       <pre class="hljs" tabindex="0"><code class="language-css">#Retail\ Brand~Scripto {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Retail Brand~Skross&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css">#Retail\ Brand~Skross {}</code></pre>
     
   </section>
 
@@ -3210,16 +3186,6 @@
   </section>
 
   <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Can Capacity~48-can&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css">#Can\ Capacity~48-can {}</code></pre>
-    
-  </section>
-
-  <section>
     <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Can Capacity~60-can&quot;</h3>
     <p>Violated
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
@@ -4320,22 +4286,22 @@
   </section>
 
   <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Decoration Method~Digital Print Transfer &quot;</h3>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Decoration Method~Digital Print Transfer&quot;</h3>
     <p>Violated
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css">#Decoration\ Method~Digital\ Print\ Transfer\  {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css">#Decoration\ Method~Digital\ Print\ Transfer {}</code></pre>
     
   </section>
 
   <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Decoration Method~Apparel Embroidery &quot;</h3>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;Decoration Method~Apparel Embroidery&quot;</h3>
     <p>Violated
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css">#Decoration\ Method~Apparel\ Embroidery\  {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css">#Decoration\ Method~Apparel\ Embroidery {}</code></pre>
     
   </section>
 
@@ -4605,27 +4571,7 @@
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#collapseOne-1</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">11</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Category~Health &amp;amp; Beauty&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#collapseOne-1</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">12</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;m-Category~Health &amp;amp; Beauty&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#collapseOne-1</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">12</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css">#m-Category~Health\ &amp;amp;\ Beauty {}</code></pre>
     
   </section>
 
@@ -4670,22 +4616,22 @@
   </section>
 
   <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Retail Brand~Arctic Zone&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css">#m-Retail\ Brand~Arctic\ Zone {}</code></pre>
-    
-  </section>
-
-  <section>
     <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Retail Brand~CamelBak&quot;</h3>
     <p>Violated
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
     </p>
     
       <pre class="hljs" tabindex="0"><code class="language-css">#m-Retail\ Brand~CamelBak {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Retail Brand~Arctic Zone&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css">#m-Retail\ Brand~Arctic\ Zone {}</code></pre>
     
   </section>
 
@@ -4820,12 +4766,12 @@
   </section>
 
   <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Retail Brand~Elleven&quot;</h3>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Retail Brand~elleven&quot;</h3>
     <p>Violated
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css">#m-Retail\ Brand~Elleven {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css">#m-Retail\ Brand~elleven {}</code></pre>
     
   </section>
 
@@ -5346,6 +5292,16 @@
     </p>
     
       <pre class="hljs" tabindex="0"><code class="language-css">#m-Retail\ Brand~Scripto {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Retail Brand~Skross&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css">#m-Retail\ Brand~Skross {}</code></pre>
     
   </section>
 
@@ -7220,16 +7176,6 @@
   </section>
 
   <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Can Capacity~48-can&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css">#m-Can\ Capacity~48-can {}</code></pre>
-    
-  </section>
-
-  <section>
     <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Can Capacity~60-can&quot;</h3>
     <p>Violated
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
@@ -8330,22 +8276,22 @@
   </section>
 
   <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Decoration Method~Digital Print Transfer &quot;</h3>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Decoration Method~Digital Print Transfer&quot;</h3>
     <p>Violated
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css">#m-Decoration\ Method~Digital\ Print\ Transfer\  {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css">#m-Decoration\ Method~Digital\ Print\ Transfer {}</code></pre>
     
   </section>
 
   <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Decoration Method~Apparel Embroidery &quot;</h3>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;id&quot; has invalid value &quot;m-Decoration Method~Apparel Embroidery&quot;</h3>
     <p>Violated
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css">#m-Decoration\ Method~Apparel\ Embroidery\  {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css">#m-Decoration\ Method~Apparel\ Embroidery {}</code></pre>
     
   </section>
 
@@ -9083,6 +9029,46 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM19406</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;img&gt; is missing required &quot;alt&quot; attribute</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19406</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19406</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19406</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;loading-image&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
       <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM99406</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
@@ -9123,7 +9109,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM19406</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM99407</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
 
@@ -9133,7 +9119,7 @@
       <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19406</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99407</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
 
@@ -9143,7 +9129,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19406</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99407</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
     
   </section>
 
@@ -9153,7 +9139,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19406</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99407</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
     
   </section>
 
@@ -9204,46 +9190,6 @@
     </p>
     
       <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19407</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">3</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;loading-image&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM99407</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;img&gt; is missing required &quot;alt&quot; attribute</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99407</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99407</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99407</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
     
   </section>
 
@@ -9403,6 +9349,36 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM19409</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;img&gt; is missing required &quot;alt&quot; attribute</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19409</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19409</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;loading-image&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
       <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM99409</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
@@ -9433,7 +9409,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM19409</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM99548</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
 
@@ -9443,7 +9419,7 @@
       <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19409</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99548</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
 
@@ -9453,7 +9429,47 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19409</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99548</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;loading-image&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM99549</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;img&gt; is missing required &quot;alt&quot; attribute</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99549</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99549</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99549</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
     
   </section>
 
@@ -9523,76 +9539,6 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM19548</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;img&gt; is missing required &quot;alt&quot; attribute</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19548</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19548</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;loading-image&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM19549</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;img&gt; is missing required &quot;alt&quot; attribute</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19549</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19549</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19549</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;loading-image&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
       <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM99651</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
@@ -9653,7 +9599,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM99549</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM19549</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
 
@@ -9663,7 +9609,7 @@
       <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99549</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19549</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
 
@@ -9673,7 +9619,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99549</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19549</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
     
   </section>
 
@@ -9683,7 +9629,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99549</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19549</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
     
   </section>
 
@@ -9693,7 +9639,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM99548</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM19548</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
 
@@ -9703,7 +9649,7 @@
       <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99548</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19548</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
 
@@ -9713,7 +9659,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99548</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19548</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
     
   </section>
 
@@ -9923,36 +9869,6 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loading1600-60</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;img&gt; is missing required &quot;alt&quot; attribute</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-1600-60</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-1600-60</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;loading-image&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
       <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loading8050-21</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
@@ -9974,6 +9890,36 @@
     </p>
     
       <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-8050-21</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;loading-image&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loading1600-60</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;img&gt; is missing required &quot;alt&quot; attribute</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-1600-60</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-1600-60</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span> &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
     
   </section>
 
@@ -10043,6 +9989,46 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM99304</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;img&gt; is missing required &quot;alt&quot; attribute</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99304</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99304</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99304</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;loading-image&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
       <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM19305</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
@@ -10074,46 +10060,6 @@
     </p>
     
       <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19305</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;loading-image&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM19304</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;img&gt; is missing required &quot;alt&quot; attribute</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19304</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19304</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;variantSKU&quot;</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19304</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
     
   </section>
 
@@ -10163,7 +10109,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM99304</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#loadingTM19304</span> &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
 
@@ -10173,7 +10119,7 @@
       <a href="https://html-validate.org/rules/wcag/h37.html" target="_blank" rel="noopener">wcag/h37</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99304</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19304</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">img</span> {}</code></pre>
     
   </section>
 
@@ -10183,7 +10129,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99304</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19304</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
     
   </section>
 
@@ -10193,7 +10139,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM99304</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#product-tile-TM19304</span> &gt; <span class="hljs-selector-tag">article</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">ul</span> &gt; <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">input</span> {}</code></pre>
     
   </section>
 
