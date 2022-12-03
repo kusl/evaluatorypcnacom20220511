@@ -14,6 +14,10 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [axe-core] for https://www.pcna.com/en-us/tools-services/customizable-ecatalogs
 ℹ Running [html-validate] for https://www.pcna.com/en-us/tools-services/customizable-ecatalogs
 ℹ Running [screenshot] for https://www.pcna.com/en-us/tools-services/customizable-ecatalogs
+ℹ Running [base] for https://www.pcna.com/tools-services/build-your-own-flyers
+ℹ Running [axe-core] for https://www.pcna.com/tools-services/build-your-own-flyers
+ℹ Running [html-validate] for https://www.pcna.com/tools-services/build-your-own-flyers
+ℹ Running [screenshot] for https://www.pcna.com/tools-services/build-your-own-flyers
 ℹ Running [base] for https://www.pcna.com/tools-services/custom-websites
 ℹ Running [axe-core] for https://www.pcna.com/tools-services/custom-websites
 ℹ Running [html-validate] for https://www.pcna.com/tools-services/custom-websites
@@ -30,6 +34,10 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [axe-core] for https://www.pcna.com/how-to-order/leeds
 ℹ Running [html-validate] for https://www.pcna.com/how-to-order/leeds
 ℹ Running [screenshot] for https://www.pcna.com/how-to-order/leeds
+ℹ Running [base] for https://www.pcna.com/blog
+ℹ Running [axe-core] for https://www.pcna.com/blog
+ℹ Running [html-validate] for https://www.pcna.com/blog
+ℹ Running [screenshot] for https://www.pcna.com/blog
 ℹ Running [base] for https://www.pcna.com/tools-services/why-pcna
 ℹ Running [axe-core] for https://www.pcna.com/tools-services/why-pcna
 ℹ Running [html-validate] for https://www.pcna.com/tools-services/why-pcna
@@ -46,5 +54,17 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [axe-core] for https://www.pcna.com/tools-services/electronic-integration
 ℹ Running [html-validate] for https://www.pcna.com/tools-services/electronic-integration
 ℹ Running [screenshot] for https://www.pcna.com/tools-services/electronic-integration
+ℹ Running [base] for https://www.pcna.com/tools-services/electronic-integration
+ℹ Running [axe-core] for https://www.pcna.com/tools-services/electronic-integration
+ℹ Running [html-validate] for https://www.pcna.com/tools-services/electronic-integration
+ℹ Running [screenshot] for https://www.pcna.com/tools-services/electronic-integration
+ℹ Running [base] for https://www.pcna.com/en-us/Search?filter-by-qty=1&sort=3
+ℹ Running [axe-core] for https://www.pcna.com/en-us/Search?filter-by-qty=1&sort=3
+ℹ Running [html-validate] for https://www.pcna.com/en-us/Search?filter-by-qty=1&sort=3
+ℹ Running [screenshot] for https://www.pcna.com/en-us/Search?filter-by-qty=1&sort=3
+ℹ Running [base] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
+ℹ Running [axe-core] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
+ℹ Running [html-validate] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
+ℹ Running [screenshot] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
 ℹ Saved results to: /home/kushal/src/html/evaluatory/pcnacomevaluatory/evaluatory-results
-Done in 370.25s.
+Done in 291.40s.
