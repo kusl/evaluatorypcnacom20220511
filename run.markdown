@@ -42,10 +42,6 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [axe-core] for https://www.pcna.com/tools-services/why-pcna
 ℹ Running [html-validate] for https://www.pcna.com/tools-services/why-pcna
 ℹ Running [screenshot] for https://www.pcna.com/tools-services/why-pcna
-ℹ Running [base] for https://www.pcna.com/tools-services/perfectly-packaged
-ℹ Running [axe-core] for https://www.pcna.com/tools-services/perfectly-packaged
-ℹ Running [html-validate] for https://www.pcna.com/tools-services/perfectly-packaged
-ℹ Running [screenshot] for https://www.pcna.com/tools-services/perfectly-packaged
 ℹ Running [base] for https://www.pcna.com/tools-services/sureship
 ℹ Running [axe-core] for https://www.pcna.com/tools-services/sureship
 ℹ Running [html-validate] for https://www.pcna.com/tools-services/sureship
@@ -67,4 +63,4 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [html-validate] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
 ℹ Running [screenshot] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
 ℹ Saved results to: /home/kushal/src/html/evaluatory/pcnacomevaluatory/evaluatory-results
-Done in 256.65s.
+Done in 321.23s.
