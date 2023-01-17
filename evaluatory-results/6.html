@@ -60,7 +60,7 @@
 
 <ul>
   <li>
-    <strong class="text-danger">83 violation(s)</strong>
+    <strong class="text-danger">22 violation(s)</strong>
   </li>
   <li>View <a href="6-axe-core.json">JSON results</a></li>
 </ul>
@@ -81,40 +81,6 @@
   </section>
 
   <section>
-    <h3><svg class="icon icon-severity icon-severity-critical" role="img" aria-hidden="true"><use xlink:href="#icon-severity-critical"></use></svg> Ensures elements with an ARIA role that require child roles contain them</h3>
-    <p>Violated
-      <a href="https://dequeuniversity.com/rules/axe/4.4/aria-required-children?application=axeAPI" target="_blank" rel="noopener">aria-required-children</a> on:
-      <em>phone, tablet, desktop</em></p>
-
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav nav-tabs nav-fill&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;elec-int-tabs&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tablist&quot;</span>&gt;</span></code></pre>
-    
-
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-critical" role="img" aria-hidden="true"><use xlink:href="#icon-severity-critical"></use></svg> Ensures elements with an ARIA role that require parent roles are contained by them</h3>
-    <p>Violated
-      <a href="https://dequeuniversity.com/rules/axe/4.4/aria-required-parent?application=axeAPI" target="_blank" rel="noopener">aria-required-parent</a> on:
-      <em>phone, tablet, desktop</em></p>
-
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-link &quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;HXD8-tab&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/en-us/trends&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tab&quot;</span> <span class="hljs-attr">aria-selected</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span>2023 Trends<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-link &quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;HXD23-tab&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/en-us/retail-brands&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tab&quot;</span> <span class="hljs-attr">aria-selected</span>=<span class="hljs-string">&quot;true&quot;</span>&gt;</span>Retail Brands<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-link active show&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;HXD4-tab&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/en-us/eco&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tab&quot;</span> <span class="hljs-attr">aria-selected</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span>Eco + Sustainable<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-link &quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;HXD5-tab&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/en-us/events&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tab&quot;</span> <span class="hljs-attr">aria-selected</span>=<span class="hljs-string">&quot;true&quot;</span>&gt;</span>Events<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-link &quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;HXD6-tab&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/en-us/outdoor&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tab&quot;</span> <span class="hljs-attr">aria-selected</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span>Outdoor<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-link &quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;HXD7-tab&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/en-us/proudpath/sales-tools&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tab&quot;</span> <span class="hljs-attr">aria-selected</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span>ProudPath™<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-
-  </section>
-
-  <section>
     <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds</h3>
     <p>Violated
       <a href="https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=axeAPI" target="_blank" rel="noopener">color-contrast</a> on:
@@ -124,8 +90,6 @@
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Save $15 when you order samples on PCNA.com, now through January 31.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span></code></pre>
     
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">u</span>&gt;</span>Shop Now<span class="hljs-tag">&lt;/<span class="hljs-name">u</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://www.pcna.com/eco-friendly&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;color: #fff;&quot;</span>&gt;</span>Shop Now<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
     
 
   </section>
@@ -173,117 +137,9 @@
     
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;javascript:void(0);&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;btn btn-secondary nav-link dropdown-toggle&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;dropdown-sign-in&quot;</span> <span class="hljs-attr">data-toggle</span>=<span class="hljs-string">&quot;dropdown&quot;</span> <span class="hljs-attr">data-ga-track</span>=<span class="hljs-string">&quot;account-nav-menu&quot;</span> <span class="hljs-attr">aria-haspopup</span>=<span class="hljs-string">&quot;true&quot;</span> <span class="hljs-attr">aria-expanded</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span></code></pre>
     
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/eco-friendly?FacetGroup=category%7CBackpacks~Briefcases%2B%2526%2BMessengers~Cooler%2BBags~Coolers~Drawstring%2BBags~Duffels~Fanny%2BPacks~Tote%2BBags<span class="hljs-symbol">&amp;amp;</span>fromSearch=true&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/eco-friendly?FacetGroup=category%7CDrinkware%2BGift%2BSets~Mugs~Sport%2BBottles~Straws%2B%2526%2BAccessories~Tumblers~Water%2BBottles<span class="hljs-symbol">&amp;amp;</span>fromSearch=true&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/eco-friendly?FacetGroup=category%7CBlankets%2B%2526%2BThrows~Food%2BStorage~Keychains%2B%2526%2BKey%2BLights~Kitchen%2BTools~Lanyards%2B%2526%2BBadge%2BHolders~Office%2BGift%2BSets~Pens~Tech%2BStationery~Wireless%2BCharging<span class="hljs-symbol">&amp;amp;</span>fromSearch=true&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/eco-friendly?FacetGroup=pcnabrand%7CTrimark<span class="hljs-symbol">&amp;amp;</span>fromSearch=true&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631276963/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_CAT_apparel.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/eco-friendly?FacetGroup=brand%7CArctic%2BZone~Stromberg~Thule~CamelBak~FinalStraw~Parkland~tentree~EKOBO~JanSport~Bellroy<span class="hljs-symbol">&amp;amp;</span>fromSearch=true&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/eco-friendly&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631277439/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_CAT_alleco.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://onetreeplanted.org/&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631210108/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_03.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://wellawareworld.org/&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631210108/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_04.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631304278/Content/CntPg/Ecosmart/2180-21_19655_EcoBook_LS_D-2.tiff.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco1&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631304879/Content/CntPg/Ecosmart/2800-56_3001-70_1627-30_1022-28_1081-58_7197-13_18218_EcoCover_FlatLay_D.tiff.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco2&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631305067/Content/CntPg/Ecosmart/7143-06_7197-13_EcoSwaps_StillLife_D.tiff.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco3&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631305316/Content/CntPg/Ecosmart/7143-21_2800-78_1600-21_ecobamboo_LS_D.tiff.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco4&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631305582/Content/CntPg/Ecosmart/7901-07_3005-73_SM-3556_EcoCotton_FlatLay_D.tiff.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco5&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631305619/Content/CntPg/Ecosmart/EcoSmart_Bamboo_Bento_D_Still.jpg.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco6&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631305670/Content/CntPg/Ecosmart/EcoSmart_Corporate_Programs_D_Still.jpg.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco7&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631305711/Content/CntPg/Ecosmart/EcoSmart_D_STILL.jpg.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco9&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631304945/Content/CntPg/Ecosmart/EcoSmart_D_STILL_thumb.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631306095/Content/CntPg/Ecosmart/EcoSmart_Health_Wellness_D_Still.jpg.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco10&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1628879714/Content/CntPg/Holiday_2021/PhotoSection_SpeakerBlanket_HiResDownload.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco11&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631306213/Content/CntPg/Ecosmart/EcoSmart_Recycled_Cotton_D_Still-1.jpg.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco12&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631306155/Content/CntPg/Ecosmart/EcoSmart_Pens_Stationery_D_Still.jpg.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco13&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631306249/Content/CntPg/Ecosmart/EcoSmart_Recycled_Cotton_D_Still-2.jpg.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco14&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631306351/Content/CntPg/Ecosmart/EcoSmart_Recycled_PET_D_STILL-1.jpg.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco15&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631306474/Content/CntPg/Ecosmart/EcoSmart_Recycled_RPET-1.tiff.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco17&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631304946/Content/CntPg/Ecosmart/EcoSmart_Recycled_RPET-1_thumb.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631306607/Content/CntPg/Ecosmart/EcoSmart_Stone_paper_D_STILL.jpg.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco18&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631307065/Content/CntPg/Ecosmart/SM-8798_SM-6924_RPET_StillLife_D.tiff.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco21&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/raw/upload/v1631306537/Content/CntPg/Ecosmart/EcoSmart_Reusable_Straw_D_STILL.jpg.zip&quot;</span> <span class="hljs-attr">download</span>=<span class="hljs-string">&quot;PCNA_Eco22&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/blog/article/environmentally-friendly-purchases-for-the-socially-responsible-consumer&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/blog/article/5-eco-friendly-gifts-you-can-feel-good-about-giving&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1639594659/Content/CntPg/Ecosmart/BlogSection_5EcoGifts_400x400.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/blog/article/5-things-you-may-not-know-about-our-eco-collection&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1639594662/Content/CntPg/Ecosmart/BlogSection_5ThingsEco_400x400.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/blog/article/clean-clear-sustainable&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631210108/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_blog_clean_clear.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/blog/article/eco-101&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631210108/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_blog_eco_101.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/blog/article/get-to-know-ekobo&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631210109/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_blog_ekobo.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/blog/article/a-lesson-in-going-green&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631210110/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_blog_going_green.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/blog/article/healthy-planet-healthy-life&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631210110/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_blog_healthy_planet.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/blog/article/eco-friendly-products-for-outdoor-adventures&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631210110/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_blog_outdoor_adventures.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/blog/article/eco-products-as-project-solutions&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631210110/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_blog_project_solutions.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/blog/article/stepping-up-for-sustainability&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631210110/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_blog_sustainability.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/blog/article/introducing-tentree-our-new-earth-first-brand-partner&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-fluid&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://assets.pcna.com/image/upload/f_auto,q_auto/v1631210110/Content/CntPg/Ecosmart/2910_Eco_Landing_Pg_blog_tentree.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/video/upload/v1618858733/Media/0357_EcoSmart_Video_01_Recycled_Cotton.mp4?_ga=2.136228853.592227136.1631016462-1331984063.1623277177&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/video/upload/v1618858729/Media/0357_EcoSmart_Video_02_Wheat_Straw.mp4?_ga=2.136228853.592227136.1631016462-1331984063.1623277177&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/video/upload/v1618858732/Media/0357_EcoSmart_Video_03_RPET.mp4?_ga=2.172507239.592227136.1631016462-1331984063.1623277177&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/video/upload/v1618858716/Media/0357_EcoSmart_Video_04_PLA.mp4?_ga=2.172507239.592227136.1631016462-1331984063.1623277177&quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://assets.pcna.com/video/upload/v1618858729/Media/0357_EcoSmart_Video_05_Bamboo_Fiber.mp4?_ga=2.172507239.592227136.1631016462-1331984063.1623277177&quot;</span>&gt;</span></code></pre>
-    
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;javascript:void(0)&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;close&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;countryClosePopUp&quot;</span>&gt;</span>
                     <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">aria-hidden</span>=<span class="hljs-string">&quot;true&quot;</span>&gt;</span>×<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
                 <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>
-    
-
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Ensures &lt;li&gt; elements are used semantically</h3>
-    <p>Violated
-      <a href="https://dequeuniversity.com/rules/axe/4.4/listitem?application=axeAPI" target="_blank" rel="noopener">listitem</a> on:
-      <em>phone, tablet, desktop</em></p>
-
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-item&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-link &quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;HXD8-tab&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/en-us/trends&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tab&quot;</span> <span class="hljs-attr">aria-selected</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span>2023 Trends<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-item&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-link &quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;HXD23-tab&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/en-us/retail-brands&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tab&quot;</span> <span class="hljs-attr">aria-selected</span>=<span class="hljs-string">&quot;true&quot;</span>&gt;</span>Retail Brands<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-item active&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-link active show&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;HXD4-tab&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/en-us/eco&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tab&quot;</span> <span class="hljs-attr">aria-selected</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span>Eco + Sustainable<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-item&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-link &quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;HXD5-tab&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/en-us/events&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tab&quot;</span> <span class="hljs-attr">aria-selected</span>=<span class="hljs-string">&quot;true&quot;</span>&gt;</span>Events<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-item&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-link &quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;HXD6-tab&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/en-us/outdoor&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tab&quot;</span> <span class="hljs-attr">aria-selected</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span>Outdoor<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-item&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-link &quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;HXD7-tab&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/en-us/proudpath/sales-tools&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;tab&quot;</span> <span class="hljs-attr">aria-selected</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span>ProudPath™<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span></code></pre>
     
 
   </section>
@@ -296,24 +152,6 @@
 
     
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;viewport&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0&quot;</span>&gt;</span></code></pre>
-    
-
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies</h3>
-    <p>Violated
-      <a href="https://dequeuniversity.com/rules/axe/4.4/nested-interactive?application=axeAPI" target="_blank" rel="noopener">nested-interactive</a> on:
-      <em>phone, tablet, desktop</em></p>
-
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;button&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;btn btn-primary&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;background-color: #789960; border-color: #789960;&quot;</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://www.pcna.com/eco-friendly&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;color: #fff;&quot;</span>&gt;</span>Shop Now<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;button&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;btn btn-secondary mb-3 mb-md-0 mr-2 &quot;</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://www.pcna.com/fsc-certified&quot;</span>&gt;</span>Shop Now<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;icon-svg&quot;</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">svg</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">use</span> <span class="hljs-attr">xlink:href</span>=<span class="hljs-string">&quot;/Views/Themes/PCNA/Fonts/pcna-icons.svg#arrow-right&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">use</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-name">svg</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;button&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;btn btn-secondary mb-3 mb-md-0 mr-2 &quot;</span>&gt;</span></code></pre>
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;button&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;btn btn-secondary&quot;</span>&gt;</span></code></pre>
     
 
   </section>
@@ -383,7 +221,7 @@
 
 <ul>
   <li>
-    <strong class="text-danger">75 violation(s)</strong>
+    <strong class="text-danger">32 violation(s)</strong>
   </li>
   <li>View <a href="6-html-validate.json">JSON results</a></li>
 </ul>
@@ -406,6 +244,16 @@
     </p>
     
       <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-tag">html</span> &gt; head &gt; script<span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">7</span>) {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> title text cannot be longer than 70 characters</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/long-title.html" target="_blank" rel="noopener">long-title</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-tag">html</span> &gt; head &gt; title {}</code></pre>
     
   </section>
 
@@ -556,446 +404,6 @@
     </p>
     
       <pre class="hljs" tabindex="0"><code class="language-css">#layout-content {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">3</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">5</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Class &quot;row&quot; duplicated</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/no-dup-class.html" target="_blank" rel="noopener">no-dup-class</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#fsc</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">3</span>) {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">15</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">15</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">3</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">5</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">7</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">8</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">9</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">10</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">11</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">12</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">13</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">14</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">15</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">16</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#FlyersLibrary</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">22</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">18</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">28</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">28</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">28</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">3</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">28</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">28</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">5</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">28</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">28</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">7</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">28</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">8</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">28</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">9</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">28</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">10</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">28</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">11</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">28</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">12</span>) &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">30</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">1</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">30</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">30</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">3</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">30</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Anchor link must have a text describing its purpose</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h30.html" target="_blank" rel="noopener">wcag/h30</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; z-widget &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">6</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">30</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">5</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">a</span> {}</code></pre>
     
   </section>
 
