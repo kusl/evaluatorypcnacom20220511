@@ -2,14 +2,6 @@ yarn run v1.22.19
 $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluatory --config pcnacom.config.json
 ℹ Evaluating 16 URLs
 ℹ Clearing output folder: /home/kushal/src/html/evaluatory/pcnacomevaluatory/evaluatory-results
-ℹ Running [base] for https://www.pcna.com/en-us/
-ℹ Running [axe-core] for https://www.pcna.com/en-us/
-ℹ Running [html-validate] for https://www.pcna.com/en-us/
-ℹ Running [screenshot] for https://www.pcna.com/en-us/
-ℹ Running [base] for https://www.pcna.com/en-ca/
-ℹ Running [axe-core] for https://www.pcna.com/en-ca/
-ℹ Running [html-validate] for https://www.pcna.com/en-ca/
-ℹ Running [screenshot] for https://www.pcna.com/en-ca/
 ℹ Running [base] for https://www.pcna.com/en-us/tools-services/customizable-ecatalogs
 ℹ Running [axe-core] for https://www.pcna.com/en-us/tools-services/customizable-ecatalogs
 ℹ Running [html-validate] for https://www.pcna.com/en-us/tools-services/customizable-ecatalogs
@@ -22,10 +14,6 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [axe-core] for https://www.pcna.com/tools-services/custom-websites
 ℹ Running [html-validate] for https://www.pcna.com/tools-services/custom-websites
 ℹ Running [screenshot] for https://www.pcna.com/tools-services/custom-websites
-ℹ Running [base] for https://www.pcna.com/eco
-ℹ Running [axe-core] for https://www.pcna.com/eco
-ℹ Running [html-validate] for https://www.pcna.com/eco
-ℹ Running [screenshot] for https://www.pcna.com/eco
 ℹ Running [base] for https://www.pcna.com/tools-services/decoration-methods-pricing
 ℹ Running [axe-core] for https://www.pcna.com/tools-services/decoration-methods-pricing
 ℹ Running [html-validate] for https://www.pcna.com/tools-services/decoration-methods-pricing
@@ -67,4 +55,4 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [html-validate] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
 ℹ Running [screenshot] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
 ℹ Saved results to: /home/kushal/src/html/evaluatory/pcnacomevaluatory/evaluatory-results
-Done in 297.41s.
+Done in 355.47s.
