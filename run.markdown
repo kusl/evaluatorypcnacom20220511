@@ -18,10 +18,6 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [axe-core] for https://www.pcna.com/tools-services/custom-websites
 ℹ Running [html-validate] for https://www.pcna.com/tools-services/custom-websites
 ℹ Running [screenshot] for https://www.pcna.com/tools-services/custom-websites
-ℹ Running [base] for https://www.pcna.com/eco
-ℹ Running [axe-core] for https://www.pcna.com/eco
-ℹ Running [html-validate] for https://www.pcna.com/eco
-ℹ Running [screenshot] for https://www.pcna.com/eco
 ℹ Running [base] for https://www.pcna.com/tools-services/decoration-methods-pricing
 ℹ Running [axe-core] for https://www.pcna.com/tools-services/decoration-methods-pricing
 ℹ Running [html-validate] for https://www.pcna.com/tools-services/decoration-methods-pricing
@@ -30,14 +26,6 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [axe-core] for https://www.pcna.com/how-to-order/leeds
 ℹ Running [html-validate] for https://www.pcna.com/how-to-order/leeds
 ℹ Running [screenshot] for https://www.pcna.com/how-to-order/leeds
-ℹ Running [base] for https://www.pcna.com/blog
-ℹ Running [axe-core] for https://www.pcna.com/blog
-ℹ Running [html-validate] for https://www.pcna.com/blog
-ℹ Running [screenshot] for https://www.pcna.com/blog
-ℹ Running [base] for https://www.pcna.com/tools-services/why-pcna
-ℹ Running [axe-core] for https://www.pcna.com/tools-services/why-pcna
-ℹ Running [html-validate] for https://www.pcna.com/tools-services/why-pcna
-ℹ Running [screenshot] for https://www.pcna.com/tools-services/why-pcna
 ℹ Running [base] for https://www.pcna.com/tools-services/perfectly-packaged
 ℹ Running [axe-core] for https://www.pcna.com/tools-services/perfectly-packaged
 ℹ Running [html-validate] for https://www.pcna.com/tools-services/perfectly-packaged
@@ -63,4 +51,4 @@ $ /home/kushal/src/html/evaluatory/pcnacomevaluatory/node_modules/.bin/evaluator
 ℹ Running [html-validate] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
 ℹ Running [screenshot] for https://www.pcna.com/en-us/product/durahyde-zippered-padfolio-0600-10
 ℹ Saved results to: /home/kushal/src/html/evaluatory/pcnacomevaluatory/evaluatory-results
-Done in 347.95s.
+Done in 346.83s.
