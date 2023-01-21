@@ -60,7 +60,7 @@
 
 <ul>
   <li>
-    <strong class="text-danger">23 violation(s)</strong>
+    <strong class="text-danger">24 violation(s)</strong>
   </li>
   <li>View <a href="8-axe-core.json">JSON results</a></li>
 </ul>
@@ -112,6 +112,10 @@
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;tab-content&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;pills-tabContent&quot;</span>&gt;</span></code></pre>
     
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;button&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;btn-cancel-popup&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;btn btn-primary&quot;</span> <span class="hljs-attr">data-dismiss</span>=<span class="hljs-string">&quot;modal&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;z-ok&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>Ok<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></code></pre>
+    
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;d-none&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;divHolidayList&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;d-none&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;divHolidayList&quot;</span>&gt;</span>02-14-2023,02-20-2023,04-07-2023,04-09-2023,05-14-2023,05-29-2023,06-19-2023,07-04-2023,09-04-2023,10-09-2023,11-11-2023,11-23-2023,11-24-2023,12-24-2023,12-25-2023,12-31-2023,01-01-2024<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
     
 
   </section>
@@ -215,7 +219,7 @@
 
 <ul>
   <li>
-    <strong class="text-danger">66 violation(s)</strong>
+    <strong class="text-danger">67 violation(s)</strong>
   </li>
   <li>View <a href="8-html-validate.json">JSON results</a></li>
 </ul>
@@ -848,6 +852,16 @@
     </p>
     
       <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#PopUpConfirm</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">3</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">button</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) {}</code></pre>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Duplicate ID &quot;divHolidayList&quot;</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
+    </p>
+    
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#ContentPage</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">24</span>) &gt; <span class="hljs-selector-tag">div</span> {}</code></pre>
     
   </section>
 
