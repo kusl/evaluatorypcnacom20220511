@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="shortcut icon" href="assets/favicon.ico">
-  <title>Evaluatory results — https://www.pcna.com/blog</title>
+  <title>Evaluatory results — https://www.pcna.com/tools-services/custom-websites</title>
   <script>(function() {
       document.documentElement.dataset.theme = localStorage.getItem("theme")
         || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "default");
@@ -25,7 +25,7 @@
   <main>
     <p><a href="index.html">← Back</a></p>
     <p>Results for:
-      <a href="https://www.pcna.com/blog" target="_blank" rel="noopener">https://www.pcna.com/blog</a></p>
+      <a href="https://www.pcna.com/tools-services/custom-websites" target="_blank" rel="noopener">https://www.pcna.com/tools-services/custom-websites</a></p>
 
     <ul>
       
@@ -46,15 +46,10 @@
 
 <ul>
   <li>
-    <strong class="text-danger">1 violation(s)</strong>
+    <strong class="">0 violation(s)</strong>
   </li>
 </ul>
 
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-moderate" role="img" aria-hidden="true"><use xlink:href="#icon-severity-moderate"></use></svg> Horizontal content overflow on tablet</h3>
-    <p>Device width: <strong>810</strong>. Document scroll width: <strong>824</strong>.</p>
-  </section>
 
 
       <hr>
@@ -65,9 +60,9 @@
 
 <ul>
   <li>
-    <strong class="text-danger">24 violation(s)</strong>
+    <strong class="text-danger">25 violation(s)</strong>
   </li>
-  <li>View <a href="9-axe-core.json">JSON results</a></li>
+  <li>View <a href="5-axe-core.json">JSON results</a></li>
 </ul>
 
 
@@ -130,6 +125,8 @@
       <em>phone, tablet, desktop</em></p>
 
     
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;content-page-sec-title text-center&quot;</span>&gt;</span></code></pre>
+    
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">h5</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col-12 warning-text mt-0&quot;</span>&gt;</span>You are currently on the U.S. site.<span class="hljs-tag">&lt;/<span class="hljs-name">h5</span>&gt;</span></code></pre>
     
 
@@ -166,13 +163,15 @@
   </section>
 
   <section>
-    <h3><svg class="icon icon-severity icon-severity-moderate" role="img" aria-hidden="true"><use xlink:href="#icon-severity-moderate"></use></svg> Ensure that the page, or at least one of its frames contains a level-one heading</h3>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies</h3>
     <p>Violated
-      <a href="https://dequeuniversity.com/rules/axe/4.4/page-has-heading-one?application=axeAPI" target="_blank" rel="noopener">page-has-heading-one</a> on:
+      <a href="https://dequeuniversity.com/rules/axe/4.4/nested-interactive?application=axeAPI" target="_blank" rel="noopener">nested-interactive</a> on:
       <em>phone, tablet, desktop</em></p>
 
     
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;no-js&quot;</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">&quot;en&quot;</span>&gt;</span></code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;button&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;btn btn-primary spacer-s ml-4&quot;</span>&gt;</span></code></pre>
+    
+      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;button&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;btn btn-primary spacer-s&quot;</span>&gt;</span></code></pre>
     
 
   </section>
@@ -193,18 +192,6 @@
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">h5</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col-12 warning-text col-sm-8&quot;</span>&gt;</span>Please select the site you would like to use.<span class="hljs-tag">&lt;/<span class="hljs-name">h5</span>&gt;</span></code></pre>
     
       <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col-12 d-flex justify-content-center&quot;</span>&gt;</span></code></pre>
-    
-
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Ensures every ARIA dialog and alertdialog node has an accessible name</h3>
-    <p>Violated
-      <a href="https://dequeuniversity.com/rules/axe/4.4/aria-dialog-name?application=axeAPI" target="_blank" rel="noopener">aria-dialog-name</a> on:
-      <em>tablet, desktop</em></p>
-
-    
-      <pre class="hljs" tabindex="0"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;QSIFeedbackButton-pullup-container&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;QSIFeedbackButton&quot;</span> <span class="hljs-attr">role</span>=<span class="hljs-string">&quot;dialog&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;position: fixed; left: 0px; width: 100%; height: 0px; top: 100%; overflow: hidden; color: rgb(0, 0, 0); margin: 0px; padding: 0px; background-color: transparent; z-index: 2000000001;&quot;</span>&gt;</span></code></pre>
     
 
   </section>
@@ -242,9 +229,9 @@
 
 <ul>
   <li>
-    <strong class="text-danger">34 violation(s)</strong>
+    <strong class="text-danger">35 violation(s)</strong>
   </li>
-  <li>View <a href="9-html-validate.json">JSON results</a></li>
+  <li>View <a href="5-html-validate.json">JSON results</a></li>
 </ul>
 
 
@@ -265,16 +252,6 @@
     </p>
     
       <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-tag">html</span> &gt; head &gt; script<span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">7</span>) {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> title text cannot be longer than 70 characters</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/long-title.html" target="_blank" rel="noopener">long-title</a>
-    </p>
-    
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-tag">html</span> &gt; head &gt; title {}</code></pre>
     
   </section>
 
@@ -434,16 +411,6 @@
       <a href="https://html-validate.org/rules/wcag/h32.html" target="_blank" rel="noopener">wcag/h32</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#layout-content</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">4</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">2</span>) &gt; <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">form</span> {}</code></pre>
-    
-  </section>
-
-  <section>
-    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> &lt;form&gt; element must have a submit button</h3>
-    <p>Violated
-      <a href="https://html-validate.org/rules/wcag/h32.html" target="_blank" rel="noopener">wcag/h32</a>
-    </p>
-    
       <pre class="hljs" tabindex="0"><code class="language-css">#searchform {}</code></pre>
     
   </section>
@@ -489,12 +456,20 @@
   </section>
 
   <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Mismatched close-tag, expected &#39;&lt;/body&gt;&#39; but found &#39;&lt;/div&gt;&#39;.</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/close-order.html" target="_blank" rel="noopener">close-order</a>
+    </p>
+    
+  </section>
+
+  <section>
     <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Attribute &quot;src&quot; has invalid value &quot;&quot;</h3>
     <p>Violated
       <a href="https://html-validate.org/rules/attribute-allowed-values.html" target="_blank" rel="noopener">attribute-allowed-values</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#Pcnaideahub</span> &gt; script<span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">10</span>) {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-tag">html</span> &gt; script<span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">10</span>) {}</code></pre>
     
   </section>
 
@@ -554,7 +529,7 @@
       <a href="https://html-validate.org/rules/no-dup-id.html" target="_blank" rel="noopener">no-dup-id</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#Pcnaideahub</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">24</span>) &gt; <span class="hljs-selector-tag">div</span> {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-tag">html</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">24</span>) &gt; <span class="hljs-selector-tag">div</span> {}</code></pre>
     
   </section>
 
@@ -564,7 +539,7 @@
       <a href="https://html-validate.org/rules/script-type.html" target="_blank" rel="noopener">script-type</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#Pcnaideahub</span> &gt; script<span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">35</span>) {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-tag">html</span> &gt; script<span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">35</span>) {}</code></pre>
     
   </section>
 
@@ -574,7 +549,7 @@
       <a href="https://html-validate.org/rules/script-type.html" target="_blank" rel="noopener">script-type</a>
     </p>
     
-      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-id">#Pcnaideahub</span> &gt; script<span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">37</span>) {}</code></pre>
+      <pre class="hljs" tabindex="0"><code class="language-css"><span class="hljs-selector-tag">html</span> &gt; script<span class="hljs-selector-pseudo">:nth-child</span>(<span class="hljs-number">37</span>) {}</code></pre>
     
   </section>
 
@@ -588,6 +563,22 @@
     
   </section>
 
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Mismatched close-tag, expected &#39;&lt;/html&gt;&#39; but found &#39;&lt;/body&gt;&#39;.</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/close-order.html" target="_blank" rel="noopener">close-order</a>
+    </p>
+    
+  </section>
+
+  <section>
+    <h3><svg class="icon icon-severity icon-severity-serious" role="img" aria-hidden="true"><use xlink:href="#icon-severity-serious"></use></svg> Unexpected close-tag, expected opening tag.</h3>
+    <p>Violated
+      <a href="https://html-validate.org/rules/close-order.html" target="_blank" rel="noopener">close-order</a>
+    </p>
+    
+  </section>
+
 
       <hr>
     
@@ -598,22 +589,22 @@
 
 
   <h3 id="screenshot-phone">phone</h3>
-  <a href="9-screenshot-phone.png" target="_blank" rel="noopener" class="inline-block">
-    <img src="9-screenshot-phone.png" alt="Screenshot for phone" class="block" style="max-height: 200px;">
+  <a href="5-screenshot-phone.png" target="_blank" rel="noopener" class="inline-block">
+    <img src="5-screenshot-phone.png" alt="Screenshot for phone" class="block" style="max-height: 200px;">
   </a>
 
 
 
   <h3 id="screenshot-tablet">tablet</h3>
-  <a href="9-screenshot-tablet.png" target="_blank" rel="noopener" class="inline-block">
-    <img src="9-screenshot-tablet.png" alt="Screenshot for tablet" class="block" style="max-height: 200px;">
+  <a href="5-screenshot-tablet.png" target="_blank" rel="noopener" class="inline-block">
+    <img src="5-screenshot-tablet.png" alt="Screenshot for tablet" class="block" style="max-height: 200px;">
   </a>
 
 
 
   <h3 id="screenshot-desktop">desktop</h3>
-  <a href="9-screenshot-desktop.png" target="_blank" rel="noopener" class="inline-block">
-    <img src="9-screenshot-desktop.png" alt="Screenshot for desktop" class="block" style="max-height: 200px;">
+  <a href="5-screenshot-desktop.png" target="_blank" rel="noopener" class="inline-block">
+    <img src="5-screenshot-desktop.png" alt="Screenshot for desktop" class="block" style="max-height: 200px;">
   </a>
 
 
